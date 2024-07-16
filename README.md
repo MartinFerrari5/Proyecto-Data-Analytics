@@ -26,9 +26,9 @@ Para el siguiente proyecto se hizo uso de las siguientes herramientas y libreria
 9. ***sqlalchemy***
 
 ## Estrucutura del proyecto
-`/dashboard`: Carpeta que contiene el dashboard interactivo para presentar tendencias y patrones.
-`/datasets`: Carpeta que contiene los datasets utilizados en el proyecto.
-`/notebooks`: Carpeta que contiene el archivo `eda.ipynb` donde se analizaron y limpiaron los datasets. A su vez contiene el archivo que realiza un scrapping para accedar al precio del dolar oficial en Argentina.
+`/dashboard`: Carpeta que contiene el dashboard interactivo para presentar tendencias y patrones. <br>
+`/datasets`: Carpeta que contiene los datasets utilizados en el proyecto. <br>
+`/notebooks`: Carpeta que contiene el archivo `eda.ipynb` donde se analizaron y limpiaron los datasets. A su vez contiene el archivo que realiza un scrapping (`scrap_dolar.py`) para accedar al precio del dolar oficial en Argentina.
 
 ## Contexto
 En el presente proyecto se aborda la problematica de una empresa de telecomunicaciones (especificamente, haremos referencia a proveedores de internet), en conocer como se va desarrollando y evolucionando la empresa con el pasar de los años. Para lograr esto se realiza una busqueda de tendencias y patrones que puedan dirigir hipotesis y conclusiones para un mejor desempeño en el futuro. Ya con esto en mente, en los siguientes apartado se detallará los pasos y conclusiones que fueron surgiendo durante este proyecto. Los datos utilizados se encuentran en el apartado [Datasets](#datasets).
@@ -38,8 +38,7 @@ Antes de comenzar de lleno con el analisis de los datos, lo primero que se reali
 
 1. Las <i>hojas</i> `Acc_vel_loc_sinrangos` y `Velocidad_sin_Rangos` fueron descartadas para este analisis ya que cuenta con gran cantidad de valores nulos, si bien estos podrian ser rellenados (utilizando la media,moda o mediana), podriamos generar una ponderacion imprecisa, dificultando un posterior analisis e/o hipotesis. Ademas, basandonos en los nombres de las columnas, podemos ver que no presentan valores muy distante entre si. Ejemplo: columna <b>2 Mbps</b> y columna <b>2.2 Mbps</b>.
 2. La <i>hoja</i> `Accesos_tecnologia_localidad` tambien fue descartada por uno de los motivos descriptos en el punto anterior, presenta gran cantidad de nulos, dificultando el futuro analisis.
-3. Las <i>hojas</i> `Dial-BAf` y `Totales Dial-BAf` tambien fueron descartadas, ya que la tecnologia <i>Dial Up</i> no sera tenida en cuenta en este analisis por su decremiento en el uso (como se puede ver en la tabla). Ademas, los datos de banda ancha fija (baf) se encuentran distribuidos en otras hojas.
-4. Las <i>hojas</i> no mencionadas son con las que se trabajará, ya que sugieren tener mayor calidad en los datos y podrian aportar mayor informacion al analisis.
+3. Las <i>hojas</i> no mencionadas son con las que se trabajará, ya que sugieren tener mayor calidad en los datos y podrian aportar mayor informacion al analisis.
 
 ## Metodologia
 Una vez que seleccionamos los archivos a trabajar, se procedio a realizar un Analisis Exploratorio de los Datos (puedes verlo haciendo click [aqui](./notebooks/eda.ipynb) o dirigendote a `/notebooks/eda.ipynb`). Acompañamos este analisis utilizando librerias de manejo de dataframes y limpieza de datos como `pandas`. Tambien se grafico el comportamiento de datos con las librerias `matplotlib` y `seaborn`, para luego, una vez finalizado el analisis y la limpieza, llevar los datos a <b>MySQL</b>. Ya con los datos alli, la base de datos se conectó con `PowerBI`, donde se procedio a realizar el dashboard.
