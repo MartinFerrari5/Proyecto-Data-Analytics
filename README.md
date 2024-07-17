@@ -32,7 +32,7 @@ Para el siguiente proyecto se hizo uso de las siguientes herramientas y libreria
 `img`: Imagenes utilizadas en el proyecto.
 
 ## Contexto
-En el presente proyecto se aborda la problematica de una empresa de telecomunicaciones (especificamente, haremos referencia a proveedores de internet), en conocer como se va desarrollando y evolucionando con el pasar de los años. Para lograr esto se realiza una busqueda de tendencias y patrones que puedan dirigir hipotesis y conclusiones para un mejor desempeño en el futuro. Ya con esto en mente, en los siguientes apartado se detallará los pasos y conclusiones que fueron surgiendo durante este proyecto. Los datos utilizados se encuentran en el apartado [Datasets](#datasets).
+En el presente proyecto se aborda la problematica de una empresa de telecomunicaciones (especificamente, haremos referencia a proveedores de internet), en conocer como se va desarrollando y evolucionando con el pasar de los años. Para lograr esto se realiza una busqueda de tendencias y patrones que puedan dirigir hipotesis y conclusiones para un mejor desempeño en el futuro. Ya con esto en mente, en los siguientes apartado se detallará los pasos y conclusiones que fueron surgiendo durante este proyecto. La fuente de datos original se encuentra citada en el apartado [Datasets](#datasets) o bien puedes hacer uso de la carpeta `/datasets` si asi lo prefieres.
 
 ## Previsualizacion
 Antes de comenzar de lleno con el analisis de los datos, lo primero que se realizo, fue una previsualizacion del dataset `internet`, el cual contaba con una cantidad considerable de tablas u <i>hojas</i> (ya que el mismo se encuentra en formato de archivo de excel). Primeras observaciones:
