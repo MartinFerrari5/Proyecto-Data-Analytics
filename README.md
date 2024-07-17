@@ -8,9 +8,10 @@
 3. [Contexto](#contexto)
 4. [Previsualizacion](#previsualizacion)
 6. [Metodologia](#metodologia)
-7. [Conclusiones](#conclusiones)
-8. [Datasets](#datasets)
-9. [Autor](#autor) 
+7. [Dashboard](#dashboard) 
+8. [Conclusiones](#conclusiones)
+9. [Datasets](#datasets)
+10. [Autor](#autor) 
 
 ## Herramientas y Librerias Utilizadas
 Para el siguiente proyecto se hizo uso de las siguientes herramientas y librerias (el conocimiento sobre los mismos no require de un nivel avanzado para el entendimiento del proyecto):
@@ -43,6 +44,12 @@ Antes de comenzar de lleno con el analisis de los datos, lo primero que se reali
 
 ## Metodologia
 Una vez que seleccionamos los archivos a trabajar, se procedio a realizar un Analisis Exploratorio de los Datos (puedes verlo haciendo click [aqui](./notebooks/eda.ipynb) o dirigendote a `/notebooks/eda.ipynb`). Acompañamos este analisis utilizando librerias de manejo de dataframes y limpieza de datos como `pandas`. Tambien se grafico el comportamiento de datos con las librerias `matplotlib` y `seaborn`, para luego, una vez finalizado el analisis y la limpieza, llevar los datos a <b>MySQL</b>. Ya con los datos alli, la base de datos se conectó con `PowerBI`, donde se procedio a realizar el dashboard.
+
+## Dashboard
+Dentro del `dashboard` se realizo una primera introduccion que abarca el funcionamiento de la empresa a nivel nacional de forma general en los periodos de 2014 a 2023. El tablero de introduccion fue el siguiente:
+<div align="center"> <img src="./img/dashboard.png"></img></div>
+
+Ademas, el archivo `dashboard_internet.pbix` no solo cuenta con el tablero de *introduccion* sino que se construyeron tres tableros más donde se muestra si los ***KPI***, planteados en el archivo `eda.ipynb`, se cumplen o no. Te invito a que descargues el archivo y lo pruebes por tu propia cuenta.
 
 ## Conclusiones
 ### <p align='center'><b>Tecnologias</b><p>
