@@ -48,7 +48,7 @@ Una vez que seleccionamos los archivos a trabajar, se procedio a realizar un Ana
 ### <p align='center'><b>Tecnologias</b><p>
 Una vez finalizado el dashboard, lo primero que se llega a concluir es que las tecnologias `Dial-up` y `ADSL` decrecen año tras año en la cantidad de gente que tiene acceso a estos servicios, pudiendo significar en un futuro, un posible corte en el mantenimiento de estos. Esto es perfectamente observable en los graficos, donde del año 2014 al año 2023, disminuyeron en un 50% la cantidad de accesos a tales tecnologias. 
 Por contraparte, la tecnologia `Fibra Optica` y `Wireless`, parecen estar cada año más en auge, incrementando considerablemente. Debido a esto, se les hizo énfasis en el `dashboard`, y se planteó como objetivo aumentar el acceso a tales servicios trimestralmente.
-Por ultimo pero no menos importante, la tecnologia `Cable Modem` si bien sigue siendo la que lidera las estadistica, desde el año 2020 que no ha tenido una suba importante. En un futuro cercano, observando las tendencias y los patrones, la `Fibra Optica`, podria liderar el mercado.
+Por ultimo pero no menos importante, comentar que, si bien la tecnologia `Cable Modem` sigue siendo la que lidera las estadistica, desde el año 2020 que no ha tenido una suba importante. En un futuro cercano, observando las tendencias y los patrones, la `Fibra Optica` podria liderar el mercado.
 
 ### <p align='center'><b>Velocidad y Accesos por provincia</b><p>
 Al igual que en el apartado anterior, es notable el aumento anual de la ***velocidad media de bajada*** y de los ***accesos a las tecnologias*** sin importar de que provincia estemos hablando. Sin embargo, cabe recalcar que Capital Federal es la que generalmente lidera las estadisticas. 
