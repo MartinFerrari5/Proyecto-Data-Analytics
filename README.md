@@ -54,6 +54,10 @@ Por ultimo pero no menos importante, comentar que, si bien la tecnologia `Cable 
 Al igual que en el apartado anterior, es notable el aumento anual de la ***velocidad media de bajada*** y de los ***accesos a las tecnologias*** sin importar de que provincia estemos hablando. Sin embargo, cabe recalcar que Capital Federal es la que generalmente lidera las estadisticas. 
 Dentro de las tendencias y patrones encontrados, se destaca un punto de inflexion entre el año 2017 y 2018, a partir de los cuales el incremento tanto en la velocidad como en el acceso a tecnologias, es destacable. Si bien no hay valores que podamos catalogar como valores disruptivos, si hay algunos datos que estan considerablemente alejados de la media.Tal es el caso de la provincia de San Luis. Si nos situamos en el año 2018, podremos observar un gran aumento en la cantidad de hogares que tienen acceso a internet durante este año. Tambien remarcar el caso de Catamarca para el año 2019 con respecto al gran aumento de accesos a **fibra optica** en ese año .Te invito a que habras el archivo `/dashboard/dashboard_internet.pbix` para que lo veas por tu propia cuenta.
 
+### <p align='center'><b>Ingresos</b><p>
+Cuando se realizo el analisis al archivo `ingresos`, fue destacable un aumento continuo durante todos los años, pudiendo significar que la actividad economica venia al alza. Sin embargo, cuando transformabamos esto datos a valores basados en el dolar estadounidense, presentó altibajos.
+Al igual que lo comentado en el tópico anterior, se distingue el año 2017. En este periodo, los ingresos (en dolares) fueron notablemente superior al resto de los años. 
+
 ## Datasets
 Los datos utilizados provienen del libro de excel `internet` que provee el Ente Nacional de Comunicaciones argentino <b>(ENACOM)</b>, contenido en el siguiente <a href="https://indicadores.enacom.gob.ar/datos-abiertos">enlace</a>.
 
