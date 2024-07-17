@@ -28,11 +28,11 @@ Para el siguiente proyecto se hizo uso de las siguientes herramientas y libreria
 ## Estructura del proyecto
 `/dashboard`: Carpeta que contiene el dashboard interactivo para presentar tendencias y patrones. <br>
 `/datasets`: Carpeta que contiene los datasets utilizados en el proyecto. <br>
-`/notebooks`: Carpeta que contiene el archivo `eda.ipynb` donde se analizaron y limpiaron los datasets. A su vez contiene el archivo que realiza un scrapping (`scrap_dolar.py`) para accedar al precio del dolar oficial en Argentina.<br>
+`/notebooks`: Carpeta que contiene el archivo `eda.ipynb` donde se analizaron y limpiaron los datasets. Este es el unico archivo del proyecto que necesitaras correr. A su vez, esta capeta contiene el archivo que realiza un scrapping (`scrap_dolar.py`) para accedar al precio del dolar oficial en Argentina.<br>
 `img`: Imagenes utilizadas en el proyecto.
 
 ## Contexto
-En el presente proyecto se aborda la problematica de una empresa de telecomunicaciones (especificamente, haremos referencia a proveedores de internet), en conocer como se va desarrollando y evolucionando la empresa con el pasar de los años. Para lograr esto se realiza una busqueda de tendencias y patrones que puedan dirigir hipotesis y conclusiones para un mejor desempeño en el futuro. Ya con esto en mente, en los siguientes apartado se detallará los pasos y conclusiones que fueron surgiendo durante este proyecto. Los datos utilizados se encuentran en el apartado [Datasets](#datasets).
+En el presente proyecto se aborda la problematica de una empresa de telecomunicaciones (especificamente, haremos referencia a proveedores de internet), en conocer como se va desarrollando y evolucionando con el pasar de los años. Para lograr esto se realiza una busqueda de tendencias y patrones que puedan dirigir hipotesis y conclusiones para un mejor desempeño en el futuro. Ya con esto en mente, en los siguientes apartado se detallará los pasos y conclusiones que fueron surgiendo durante este proyecto. Los datos utilizados se encuentran en el apartado [Datasets](#datasets).
 
 ## Previsualizacion
 Antes de comenzar de lleno con el analisis de los datos, lo primero que se realizo, fue una previsualizacion del dataset `internet`, el cual contaba con una cantidad considerable de tablas u <i>hojas</i> (ya que el mismo se encuentra en formato de archivo de excel). Primeras observaciones:
@@ -46,13 +46,13 @@ Una vez que seleccionamos los archivos a trabajar, se procedio a realizar un Ana
 
 ## Conclusiones
 ### <p align='center'><b>Tecnologias</b><p>
-Una vez finalizado el analisis, lo primero que se llega a concluir es que las tecnologias `Dial-up` y `ADSL` decrecen año a año en la cantidad de gente que tiene acceso a estos servicios, pudiendo significar en un futuro, un posible corte en el servicio. Esto es perfectamente observable en los graficos, donde del año 2014 al año 2023, disminuyeron en un 50% la cantidad de accesos a tales tecnologias. 
-Por contraparte, la tecnologia `Fibra Optica` y `Wireless`, parecen estar cada año más en auge, incrementando considerablemente. Debido a esto, se le hizo foco a tal aspecto, en el `dashboard`, y se planteo como objetivo aumentar el acceso tales servicios trimestralmente.
+Una vez finalizado el dashboard, lo primero que se llega a concluir es que las tecnologias `Dial-up` y `ADSL` decrecen año tras año en la cantidad de gente que tiene acceso a estos servicios, pudiendo significar en un futuro, un posible corte en el mantenimiento de estos. Esto es perfectamente observable en los graficos, donde del año 2014 al año 2023, disminuyeron en un 50% la cantidad de accesos a tales tecnologias. 
+Por contraparte, la tecnologia `Fibra Optica` y `Wireless`, parecen estar cada año más en auge, incrementando considerablemente. Debido a esto, se les hizo énfasis en el `dashboard`, y se planteó como objetivo aumentar el acceso a tales servicios trimestralmente.
 Por ultimo pero no menos importante, la tecnologia `Cable Modem` si bien sigue siendo la que lidera las estadistica, desde el año 2020 que no ha tenido una suba importante. En un futuro cercano, observando las tendencias y los patrones, la `Fibra Optica`, podria liderar el mercado.
 
 ### <p align='center'><b>Velocidad y Accesos por provincia</b><p>
 Al igual que en el apartado anterior, es notable el aumento anual de la ***velocidad media de bajada*** y de los ***accesos a las tecnologias*** sin importar de que provincia estemos hablando. Sin embargo, cabe recalcar que Capital Federal es la que generalmente lidera las estadisticas. 
-Dentro de las tendencias y patrones encontrados, se destaca un punto de inflexion entre el año 2017 y 2018, a partir de los cuales el incremento tanto en la velocidad como en la cantidad de gente que tiene acceso a internet, es destacable.
+Dentro de las tendencias y patrones encontrados, se destaca un punto de inflexion entre el año 2017 y 2018, a partir de los cuales el incremento tanto en la velocidad como en el acceso a tecnologias, es destacable. Si bien no hay valores que podamos catalogar como valores disruptivos, si hay algunos datos que estan considerablemente alejados de la media.Tal es el caso de la provincia de San Luis. Si nos situamos en el año 2018, podremos observar un gran aumento en la cantidad de hogares que tienen acceso a internet durante este año. Tambien remarcar el caso de Catamarca para el año 2019 con respecto al gran aumento de accesos a **fibra optica** en ese año .Te invito a que habras el archivo `/dashboard/dashboard_internet.pbix` para que lo veas por tu propia cuenta.
 
 ## Datasets
 Los datos utilizados provienen del libro de excel `internet` que provee el Ente Nacional de Comunicaciones argentino <b>(ENACOM)</b>, contenido en el siguiente <a href="https://indicadores.enacom.gob.ar/datos-abiertos">enlace</a>.
